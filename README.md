@@ -1,6 +1,6 @@
 # Desafios Codelândia IURI
+
     Desafio 01 - Blog
-    
 
 ## Demonstration
 
@@ -9,20 +9,19 @@
 
 ## Techs
 
-* [ ] HTML
-* [ ] CSS
-* [ ] JavaScript
+- [ ] HTML
+- [ ] CSS
 
 ### Reproduced
 
 **Emerson Costa**
 
-## Encontre-me nas redes sociais: 
+## Encontre-me nas redes sociais:
 
-*Instagram*
+_Instagram_
 
 @emerson_b_costa
 
-*Linkedin*
+_Linkedin_
 
 https://www.linkedin.com/in/joseemersoncosta/
