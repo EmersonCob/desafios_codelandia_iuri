@@ -6,3 +6,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container 
+{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    background: linear-gradient(88.27deg, #574AE8 0%, #3EA1DB 100%);
+}
