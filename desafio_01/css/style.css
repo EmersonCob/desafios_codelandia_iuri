@@ -16,7 +16,7 @@
 }
 .content
 {
-    margin-right: 1.25rem;
+    margin: 70px;
 }
 .content-link 
 {
@@ -75,5 +75,9 @@
 
 .container-main
 {
-    margin: 3.12rem 1.25rem 0 1.25rem;
+    margin: 90px;
+    background-color: rgb(136, 131, 131);
 }
+
+
+
