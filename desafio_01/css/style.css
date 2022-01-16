@@ -1,134 +1,119 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Poppins:wght@400;700&display=swap');
-@import url('../fontes/LexendDeca-Regular.ttf');
-@import url('../fontes/Inter-Medium.ttf');
-@import url('../fontes/Inter-Regular.ttf');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Poppins:wght@400;700&display=swap");
+@import url("../fontes/LexendDeca-Regular.ttf");
+@import url("../fontes/Inter-Medium.ttf");
+@import url("../fontes/Inter-Regular.ttf");
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  height: 15.62rem;
+  background: linear-gradient(
+    90deg,
+    rgba(87, 74, 224, 1) 35%,
+    rgba(62, 161, 219, 1) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.content {
+  margin: 70px;
+}
+.content-link {
+  display: flex;
+  justify-content: space-between;
+}
+.content-link a {
+  margin: 3rem 1.25rem 2.31rem 1.25rem;
 
-*
-{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  font-family: "Lexend Deca", sans-serif;
+  text-decoration: none;
+  color: #fafafa;
+  font-weight: normal;
+  font-size: 24px;
 }
-.container 
-{
-    height: 15.62rem;
-    background: linear-gradient(90deg, rgba(87,74,224,1) 35%, rgba(62,161,219,1) 100%);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.content
-{
-    margin: 70px;
-}
-.content-link 
-{
-    display: flex;
-    justify-content: space-between;
-}
-.content-link a 
-{
-    margin: 3rem 1.25rem 2.31rem 1.25rem;
+.content-search {
+  height: 2.5rem;
+  border-radius: 5px;
+  margin: 0 1.25rem 3rem 1.25rem;
+  background: rgba(255, 255, 255, 0.2);
 
-    font-family: 'Poppins', sans-serif;
-    text-decoration: none;
-    color: #fafafa;
-    font-weight: normal;
-    font-size: 18px;
+  display: flex;
 }
-.content-search
-{
-    height: 2.5rem;
-    border-radius: 5px;
-    margin: 0 1.25rem 3rem 1.25rem;
-    background: rgba(255,255,255,0.2);
-
-    display: flex;
+.content-search img {
+  height: 0.97rem;
+  width: 0.97rem;
+  margin: 0.76rem 0.82rem 0.57rem 0.76rem;
 }
-.content-search img
-{
-    height: 0.97rem;
-    width: 0.97rem;
-    margin: 0.76rem 0.82rem 0.57rem 0.76rem;
+.content-search input {
+  border: none;
+  width: 21.87rem;
+  background: none;
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+  color: #fafafa;
 }
-.content-search input
-{
-        border: none;
-        width: 21.87rem;
-        background: none;
-        border-radius: 5px;
-        font-size: 14px;
-        font-family: 'Poppins', sans-serif;
-        font-weight: normal;
-        color: #fafafa;
+.content-search input:focus {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
 }
-.content-search input:focus
-{
-    box-shadow: 0 0 0 0;
-    border: 0 none;
-    outline: 0;
-}
-.content-search input::placeholder
-{
-    font-size: 12px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: normal;
-    color: #fafafa;
+.content-search input::placeholder {
+  font-size: 12px;
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+  color: #fafafa;
 }
 
-body
-{
-    background-color: #e7e7e7d3;
+body {
+  background-color: #e7e7e7d3;
 }
 
-.container-main
-{
-    margin: 40px 50px;
+.container-main {
+  margin: 40px 50px;
 }
 
-.news-card
-{
-    margin: 40px;
-    padding: 20px 25px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 5px;
+.news-card {
+  margin: 40px;
+  padding: 20px 25px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
 }
 
-.date-like
-{
-    display: flex;
-    position: relative,;
-    justify-content: space-between;
+.date-like {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
 }
 
-.date-like p
-{
-    font-size: 16px;
-    font-family: 'Lexend Deca', sans-serif;
-    font-weight: normal;
-    color: #717171;
+.date-like p {
+  font-size: 16px;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: normal;
+  color: #717171;
 }
 
-h1
-{
-    padding: 10px 0px 0px;
-    color: #1A202C;
+h1 {
+  padding: 10px 0px 0px;
+  color: #1a202c;
 }
 
-.title-news h1 
-{
-    font-size: 26px;
-    font-family: 'Lexend Deca', sans-serif;
-    font-weight: 400;
+.title-news h1 {
+  font-size: 26px;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
 }
 
-div p
-{
-    padding: 10px 0px;
-    font-size: 18px;
-    font-family: 'Lexend Deca', sans-serif;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #717171;
+div p {
+  padding: 10px 0px;
+  font-size: 18px;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #717171;
 }
